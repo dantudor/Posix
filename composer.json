@@ -1,0 +1,20 @@
+{
+    "name": "dantudor/posix",
+    "description": "Posix Wrapper",
+    "keywords": ["posix"],
+    "authors": [
+        {
+            "name": "Dan Tudor",
+            "email": "dtudor01@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-posix": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Posix": "src/"
+        }
+    }
+}
